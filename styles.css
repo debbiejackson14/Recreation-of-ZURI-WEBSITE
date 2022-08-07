@@ -5,7 +5,6 @@
 }
 
 body {
-  /* color: rgb(255 250 250); */
   font-family: "Averta-Regular", sans-serif;
 }
 
@@ -23,9 +22,8 @@ header {
 }
 
 .header-content {
-  /* max-width: 1104px;
-    margin: 0 auto; */
   color: #514949;
+  opacity: 0.9;
 }
 
 h1 {
@@ -50,7 +48,6 @@ a {
   margin-top: 6.5%;
   cursor: pointer;
   margin-left: 5%;
- 
 }
 
 .training {
@@ -58,43 +55,37 @@ a {
   border: 1px solid #e7332b;
   padding: 13px 30px 13px 30px;
   background-color: #e7332b;
-  color: white; 
+  color: white;
 }
 
 .training:hover {
   background-color: white;
-  color: #e7332b; 
-  
+  color: #e7332b;
 }
-
 
 .training:active {
   border: 2px solid black;
   border-radius: 5px;
 }
 
-
 .talent {
   margin-right: 50px;
   border: 1px solid #e7332b;
-  
+
   padding: 13px 30px 13px 30px;
   background-color: white;
-  color: #e7332b; 
-  
+  color: #e7332b;
 }
 
 .talent:hover {
   background-color: #e7332b;
-  color: white; 
-  
+  color: white;
 }
 
 .talent:active {
   border: 2px solid black;
   border-radius: 5px;
 }
-
 
 .zuri-team {
   text-align: center;
@@ -105,12 +96,9 @@ h6 {
   color: #e7332b;
   font-size: 14px;
   line-height: 24px;
-  
 }
 
-
-.p{
-  
+.p {
   font-size: 1.5em;
   justify-content: center;
   width: 25%;
@@ -119,10 +107,88 @@ h6 {
   line-height: 40px;
   padding-top: 1em;
 }
-/* .p-line {
-  font-size: 35px;
-  width: 50%;
+
+.zuri-box {
+  display: flex;
+  flex-direction: row;
+  width: 75%;
+  justify-content: space-around;
+  margin: 4em auto;
+ 
+}
+
+.Zuri-logo {
+  margin: 2rem 1rem 4rem;
+  height: 6.25em;
+}
+
+.zuri-box-two {
+  margin-bottom: 5em;
+  padding: 2em;
+  width: 75%;
+  background-color: #fffafa;
+  margin-left: 1.8em;
+  line-height: 25px;
+  color: #514949;
+  opacity: 0.9;
+ 
+}
+
+.zuri-links {
+  margin-top: 1.8em;
+  margin-bottom: 4.5rem;
+}
+
+.footer-container {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  justify-content: space-between;
+  margin-bottom: 4.3rem;
+}
+
+.footer-links {
+  color: #514949;
+}
+
+h4 {
+  padding-bottom: 0.7rem;
+}
+li {
+  list-style-type: none;
+  color: #514949;
+  opacity: 0.9;
+  padding-bottom: 0.9rem;
+  font-size: 0.9em;
+}
+
+.address {
+  width: 87%;
+}
+
+.SM-icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.icons {
+  width: 1.8em;
+  height: 1.8em;
+  padding: 6px;
+}
+
+hr {
+  width: 70%;
+  margin: 0 auto;
+  color: #514949;
+  opacity: 0.5;
+}
+
+.copyright {
   text-align: center;
-  justify-content: center;
-  
-} */
+  color: #514949;
+  font-weight: 700;
+  margin-top: 2.7em;
+  margin-bottom: 8em;
+  line-height: 24px;
+}
