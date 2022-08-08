@@ -21,18 +21,26 @@ header {
   padding-top: 4.4em;
 }
 
+
 .header-content {
   color: #514949;
   opacity: 0.9;
+  margin: 0 auto;
+  padding: 0.5rem;
+  max-width: 700px;
+  text-align: center;
 }
 
 h1 {
-  text-align: center;
-  margin: 2.6em 0em 1.2em 0em;
+  margin: 2.3em 0em 1.4em 0em; 
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 800;
+  
 }
 
 .header-text {
-  text-align: center;
+  font-size: 16px;
   line-height: 24px;
   opacity: 0.95;
 }
@@ -108,6 +116,8 @@ h6 {
   padding-top: 1em;
 }
 
+
+
 .zuri-box {
   display: flex;
   flex-direction: row;
@@ -164,6 +174,7 @@ li {
 
 .address {
   width: 87%;
+  margin: 0 auto;
 }
 
 .SM-icons {
@@ -192,3 +203,113 @@ hr {
   margin-bottom: 8em;
   line-height: 24px;
 }
+
+
+
+
+/* RESPONSIVE STYLINGS */
+
+
+@media (max-width: 768px) {
+
+
+  header {
+  min-height: 300px;
+  background-size: contain;
+  }
+
+
+  .header-content {
+    color: #514949;
+    opacity: 1.0;
+   
+  }
+
+  h1{
+    font-size: 1.5em;
+    margin: 3em 0em 1.2em 0em; 
+    
+  }
+
+  .header-text {
+    opacity: 1;
+    margin-top: 3.1rem;
+    margin-bottom: 3.7rem; 
+  }
+  
+
+   .talent-training-box {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 40px;
+    
+  } 
+
+
+  .training {
+    margin: 30px auto;
+  }
+  
+
+  .talent {
+    margin: auto;
+  }
+
+  .p {
+    font-size: 1.5em;
+    width: 90%;
+    line-height: 36px;
+    margin-bottom: 3em;
+  }
+
+
+  .zuri-box {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+   
+  }
+
+
+  .zuri-box-two {
+    margin-bottom: 2em;
+    width: 90%;
+    background-color: #fffafa;
+   
+  }
+
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10rem;
+  }
+  
+.footer-logo {
+  margin-bottom: 2.5em;
+  width: 50%;
+}
+
+.footer-links {
+  margin-bottom: 2em;
+}
+
+
+  h4 {
+    padding-bottom: 0.5em;
+    font-size: 1.2em;
+  }
+
+  .SM-icons {
+    display: flex;
+    justify-content: center;
+  }
+
+
+
+}
+
+
